@@ -360,7 +360,7 @@ rfPlot2 =ggplot(plot.data[c("feature","rf.imp")], aes(x=feature, y=rf.imp))+
   ggtitle("Random Forest Importance") +
   theme(axis.text.x = element_blank(), axis.title.x=element_blank())
 
-# Generate Plot 1:
+# Generate Plot 2:
 grid.arrange( enPlot2, lsPlot2, ridPlot2, rfPlot2,  ncol=1)
 
 
